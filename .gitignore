@@ -4,21 +4,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
 
 # Virtual Environment
 venv/
@@ -33,13 +19,11 @@ env/
 *.swo
 *~
 
-# Qt/C++ build files
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.dylib
+# Qt/C++ project (not needed for Python version)
+build/
+src/
+include/
+*.pro
 Makefile
 Makefile.*
 .qmake.stash
@@ -47,6 +31,8 @@ object_script.*
 moc_*.cpp
 ui_*.h
 qrc_*.cpp
+*.o
+*.obj
 
 # yfinance cache
 yfinance_cache/
@@ -58,5 +44,5 @@ yfinance_cache/
 .DS_Store
 Thumbs.db
 
-# Project specific
-run.bat
+# Batch files
+*.bat
